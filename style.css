@@ -1,0 +1,105 @@
+body {
+	background-color: #f5f6f6;
+	position: absolute;
+}
+.text_top {
+	margin-left: 37%;
+}
+.text_myworks {
+	margin-left: 12%;
+	font-size: 20px;
+}
+.block1 {
+	position: relative;
+	height: 500px;
+	width: 60%;
+	background-color: white;
+	top: 10%;
+    left: 17%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.block2 {
+	position: relative;
+	height: 500px;
+	width: 60%;
+	background-color: white;
+	top: 50px;
+    left: 17%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.block1_text, .block2_text{
+	position: relative;
+    top: 20px;
+}
+.block1_div, .block2_div {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 30px;
+}
+.text_Sprint1, .text_Sprint2 {
+	position: relative;
+	font-size: 25px;
+	top: 20px;
+	left: 40px;
+} 
+.Sprint1_div, .Sprint2_div {
+	position: relative;
+	display: flex;
+	width: 270px;
+    height: 135px;
+    margin: 20px;
+    padding: 10px;
+    top: 35px;
+    left: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 6px 25px #d0d0d0;
+}
+.block1:hover{
+	background-color: #b3d0ff;
+}
+.block2:hover {
+	background-color: #c9b3ff;
+}
+.Sprint1_div:hover, .Sprint2_div:hover  {
+	box-shadow: -5px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.icon1 {
+	width: 40px;
+	height: 30px;
+}
+.projectname {
+	position: relative;
+	font-size: 18px;
+	top: 5px;
+	left: 5px;
+}
+.line {
+    border-bottom: 1px solid black;
+    position: relative;
+    left: 5px;
+
+}
+.button_div {
+	position: relative;
+	top: 80px;
+	right: 160px;
+}
+.button {
+    width: 100px;
+	height: 35px;
+	border: 2px solid green;
+	background: none;
+	border-radius: 5px;
+}
+.LessonCard {
+	position: relative;
+	top: 30px;
+}
